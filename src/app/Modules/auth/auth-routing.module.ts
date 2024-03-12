@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'Otp',component:OtpComponent},
   {path:'AccountVerification',component:AccountVerificationComponent},
   {path:'BankAccOpen',component:OpenAccountComponent},
-  {path:'signup',component:SignupComponent}
+  {path:'signUp',component:SignupComponent}
 
 ];
 
