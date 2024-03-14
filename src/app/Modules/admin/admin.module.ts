@@ -19,6 +19,8 @@ import { UpdateComponent } from './components/Contents/customers/form/update/upd
 import { MapComponent } from './components/Contents/customers/map/map.component';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormTimeComponent } from './components/Contents/reports/report-forms/form-time/form-time.component';
+import { Form2Component } from './components/Contents/reports/report-forms/form2/form2.component';
 
 
 
@@ -37,7 +39,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LineChartComponent,
     BarChartComponent,
     UpdateComponent,
-    MapComponent
+    MapComponent,
+    FormTimeComponent,
+    Form2Component,
+    
     
    
  
@@ -60,7 +65,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     PieChartComponent,
     DailyExpenseComponent,
     LineChartComponent,
-    BarChartComponent
+    BarChartComponent,
+    FormTimeComponent,
+    Form2Component,
+
 
   ]
    

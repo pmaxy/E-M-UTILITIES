@@ -5,6 +5,7 @@ import { ReportsComponent } from './components/Contents/reports/reports.componen
 import { CustomersComponent } from './components/Contents/customers/customers.component';
 import { SettingsComponent } from './components/Contents/settings/settings.component';
 import { AdminDashbordComponent } from './components/Dashbord/admin-dashbord/admin-dashbord.component';
+import { FormTimeComponent } from './components/Contents/reports/report-forms/form-time/form-time.component';
 
 const routes: Routes = [
   {path: '', pathMatch:'full', redirectTo:'/Dashboard'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'Reports',component:ReportsComponent},
   {path:'Customers',component:CustomersComponent},
   {path:'Settings',component:SettingsComponent},
+  {path:'FormTime',component:FormTimeComponent}
 
    ]
   },

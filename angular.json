@@ -26,7 +26,9 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/leaflet/dist/leaflet.css"
+              
             ],
             "scripts": []
           },
@@ -104,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7f024f03-47a6-489c-82f7-2734a252a678"
   }
 }

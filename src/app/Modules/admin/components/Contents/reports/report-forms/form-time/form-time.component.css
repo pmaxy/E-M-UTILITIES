@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Adjust as needed */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Add space between labels */
+}
+
+input[type="date"] {
+    margin-bottom: 20px;
+    border-radius: 5px; /* Apply border radius */
+    padding: 5px;
+}
