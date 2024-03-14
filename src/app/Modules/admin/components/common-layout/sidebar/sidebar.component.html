@@ -40,7 +40,7 @@
     <li  class="list_button  ">
       <a [routerLink]="['/Dashboard/Customers']" class="shadow-xl p-2 bg-white rounded-lg bg-white flex gap-2 items-center row hover:scale-[1.05] hover:border-gray-300 hover:border hover:border-solid-sm focus:bg-gray-200">
         <img src=".\assets\internship-3833168-3185247.png" class="w-10 bg-gradient-to-br from-primary-950 to-primary-600 rounded-lg p-2" alt="dashboard">
-        <span>Customers</span>
+        <span>Power Consumption</span>
       </a >   
      
     </li>    
@@ -50,7 +50,7 @@
         <div (click)="closeNav()" class="shadow-xl p-2 bg-white rounded-lg flex gap-2 items-center row hover:scale-[1.05] hover:border-gray-300 hover:border hover:border-solid-sm focus:bg-gray-200">
       
         <img src=".\assets\internship-3833168-3185247.png"  class="w-10 bg-gradient-to-br from-primary-950 to-primary-600 rounded-lg p-2" alt="dashboard">
-        <span>Purchases</span>
+        <span>Charging Rates</span>
         </div>
         <div [hidden]="isHidden" >
           <ul  class="p-2 flex flex-col gap-1">
@@ -67,7 +67,7 @@
     <li  class="list_button  ">
       <a [routerLink]="['/Dashboard/Reports']" class="shadow-xl p-2 bg-white rounded-lg bg-white flex gap-2 items-center row hover:scale-[1.05] hover:border-gray-300 hover:border hover:border-solid-sm focus:bg-gray-200">
         <img src=".\assets\internship-3833168-3185247.png" class="w-10 bg-gradient-to-br from-primary-950 to-primary-600 rounded-lg p-2" alt="dashboard">
-        <span>Reports</span>
+        <span>Roles and Permissions</span>
       </a > 
 
      
@@ -76,6 +76,14 @@
      
  
      <li  class="list_button  ">
+      <a [routerLink]="['/Dashboard/Settings']" class="shadow-xl p-2 bg-white rounded-lg bg-white  flex gap-2 items-center row hover:scale-[1.05] hover:border-gray-300 hover:border hover:border-solid-sm focus:bg-gray-200">
+        <img src=".\assets\internship-3833168-3185247.png" class="w-10 bg-gradient-to-br from-primary-950 to-primary-600 rounded-lg p-2" alt="dashboard">
+        <span>Reports</span>
+      </a >   
+     
+    </li>
+
+    <li  class="list_button  ">
       <a [routerLink]="['/Dashboard/Settings']" class="shadow-xl p-2 bg-white rounded-lg bg-white  flex gap-2 items-center row hover:scale-[1.05] hover:border-gray-300 hover:border hover:border-solid-sm focus:bg-gray-200">
         <img src=".\assets\internship-3833168-3185247.png" class="w-10 bg-gradient-to-br from-primary-950 to-primary-600 rounded-lg p-2" alt="dashboard">
         <span>Settings</span>
